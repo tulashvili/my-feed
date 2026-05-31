@@ -1,9 +1,12 @@
 baseURL = "https://feed.bitsnbeing.com/"
-languageCode = "ru"
+locale = "ru"
 title = "My Feed"
 theme = "neofeed-theme"
 
+[author]
+  name = "Omar"
+  image = "/images/avatar.jpg"
+
 [params]
-  author = "Omar"
-  description = "поток мыслей"
-  skin = "macintosh"       # или "hacker", "vaporwave" и др.
+  description = "feed"
+  skin = "macintosh"
